@@ -1,0 +1,16 @@
+a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\Deakin_Helper.dll
+a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\Deakin_Helper.pdb
+a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\Windows.winmd
+a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\Xamarin.Forms.Core.dll
+a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\Xamarin.Forms.Platform.dll
+a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\Xamarin.Forms.Xaml.dll
+a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\Xamarin.Forms.Core.xml
+a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\Xamarin.Forms.Xaml.xml
+a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.Navigation.MainPage.xaml.g.cs
+a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.Navigation.MasterPage.xaml.g.cs
+a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.ContactsPage.xaml.g.cs
+a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.HomePage.xaml.g.cs
+a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.dll
+a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.pdb
+a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.dll.mdb
+a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\Deakin_Helper.dll.mdb
