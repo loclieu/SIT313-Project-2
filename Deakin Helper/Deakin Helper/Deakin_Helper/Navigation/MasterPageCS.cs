@@ -15,21 +15,36 @@ namespace Deakin_Helper
             masterPageItems.Add(new MasterPageItem
             {
                 Title = "Home",
-                IconSource = "contacts.png",
-                TargetType = typeof(HomePage)
+                IconSource = "icon_home.png",
+                TargetType = typeof(HomePageCS)
             });
             masterPageItems.Add(new MasterPageItem
             {
-                Title = "Unit",
-                IconSource = "todo.png",
-                TargetType = typeof(HomePage)
+                Title = "Classes",
+                IconSource = "icon_classes.png",
+                TargetType = typeof(ClassesPageCS)
             });
             masterPageItems.Add(new MasterPageItem
             {
                 Title = "Assignment",
-                IconSource = "reminders.png",
-                TargetType = typeof(HomePage)
+                IconSource = "icon_assignments.png",
+                TargetType = typeof(AssignmentPageCS)
             });
+
+            masterPageItems.Add(new MasterPageItem
+            {
+                Title = "Cloud Deakin",
+                IconSource = "icon_cloud.png",
+                TargetType = typeof(CloudDeakinPageCS)
+            });
+
+            masterPageItems.Add(new MasterPageItem
+            {
+                Title = "Settings",
+                IconSource = "icon_settings.png",
+                TargetType = typeof(SettingPageCS)
+            });
+
 
             listView = new ListView
             {

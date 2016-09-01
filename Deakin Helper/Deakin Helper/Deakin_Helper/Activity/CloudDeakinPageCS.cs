@@ -1,18 +1,22 @@
-﻿using Xamarin.Forms;
-
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Xamarin.Forms;
 
 namespace Deakin_Helper
 {
-    public class HomePageCS : ContentPage
+    public class CloudDeakinPageCS : ContentPage
     {
-        public HomePageCS()
+        public CloudDeakinPageCS()
         {
-            Title = "Home Page";
+            Title = "Cloud Deakin";
             Content = new StackLayout
             {
                 Children = {
                     new Label {
-                        Text = "Home Page data goes here",
+                        Text = "Cloud Deakin data goes here",
                         HorizontalOptions = LayoutOptions.Center,
                         VerticalOptions = LayoutOptions.CenterAndExpand
                     }

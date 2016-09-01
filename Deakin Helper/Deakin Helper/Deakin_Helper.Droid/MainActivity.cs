@@ -10,7 +10,7 @@ using Android.OS;
 namespace Deakin_Helper.Droid
 {
     // 
-    [Activity(Label = "Deakin_Helper", Icon = "@drawable/icon" , MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "Deakin_Helper", Icon = "@drawable/icon_cloud" , MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsApplicationActivity
     {
         protected override void OnCreate(Bundle bundle)

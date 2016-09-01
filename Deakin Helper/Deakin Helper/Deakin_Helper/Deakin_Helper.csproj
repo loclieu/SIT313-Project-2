@@ -35,15 +35,31 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Activity\AssignmentPage.xaml.cs">
+      <DependentUpon>AssignmentPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Activity\AssignmentPageCS.cs" />
+    <Compile Include="Activity\ClassesPage.xaml.cs">
+      <DependentUpon>ClassesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Activity\ClassesPageCS.cs" />
+    <Compile Include="Activity\CloudDeakinPage.xaml.cs">
+      <DependentUpon>CloudDeakinPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Activity\CloudDeakinPageCS.cs" />
+    <Compile Include="Activity\SettingPage.xaml.cs">
+      <DependentUpon>SettingPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Activity\SettingPageCS.cs" />
     <Compile Include="App.cs" />
-    <Compile Include="ContactsPageCS.cs" />
-    <Compile Include="ContactsPage.xaml.cs">
+    <Compile Include="Activity\ContactsPageCS.cs" />
+    <Compile Include="Activity\ContactsPage.xaml.cs">
       <DependentUpon>ContactsPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="HomePage.xaml.cs">
+    <Compile Include="Activity\HomePage.xaml.cs">
       <DependentUpon>HomePage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="HomePageCS.cs" />
+    <Compile Include="Activity\HomePageCS.cs" />
     <Compile Include="Navigation\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -89,13 +105,37 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="ContactsPage.xaml">
+    <EmbeddedResource Include="Activity\ContactsPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="HomePage.xaml">
+    <EmbeddedResource Include="Activity\HomePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Activity\ClassesPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Activity\AssignmentPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Activity\CloudDeakinPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Activity\SettingPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
