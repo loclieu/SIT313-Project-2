@@ -38,40 +38,53 @@
     <Compile Include="Activity\AssignmentPage.xaml.cs">
       <DependentUpon>AssignmentPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Activity\AssignmentPageCS.cs" />
     <Compile Include="Activity\ClassesPage.xaml.cs">
       <DependentUpon>ClassesPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Activity\ClassesPageCS.cs" />
     <Compile Include="Activity\CloudDeakinPage.xaml.cs">
       <DependentUpon>CloudDeakinPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Activity\CloudDeakinPageCS.cs" />
     <Compile Include="Activity\SettingPage.xaml.cs">
       <DependentUpon>SettingPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Activity\SettingPageCS.cs" />
+    <Compile Include="Activity\TodoItemPageX.xaml.cs">
+      <DependentUpon>TodoItemPageX.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.cs" />
-    <Compile Include="Activity\ContactsPageCS.cs" />
     <Compile Include="Activity\ContactsPage.xaml.cs">
       <DependentUpon>ContactsPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Activity\HomePage.xaml.cs">
       <DependentUpon>HomePage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Activity\HomePageCS.cs" />
+    <Compile Include="Database\TodoItem.cs" />
+    <Compile Include="Database\TodoItemDatabase.cs" />
+    <Compile Include="Database\ISQLite.cs" />
     <Compile Include="Navigation\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Navigation\MainPageCS.cs" />
     <Compile Include="Navigation\MasterPage.xaml.cs">
       <DependentUpon>MasterPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Navigation\MasterPageCS.cs" />
     <Compile Include="Navigation\MasterPageItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="Mono.Data.Sqlite">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoTouch\v1.0\Mono.Data.Sqlite.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLite-net, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\sqlite-net-pcl.1.1.2\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\SQLite-net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SQLitePCL.batteries, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\SQLitePCL.bundle_green.0.9.2\lib\portable-net45+netcore45+wpa81+wp8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\SQLitePCL.batteries.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SQLitePCL.raw, Version=0.9.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\SQLitePCL.raw.0.9.2\lib\portable-net45+netcore45+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\SQLitePCL.raw.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Windows">
       <HintPath>C:\Program Files (x86)\Windows Phone Kits\8.1\References\CommonConfiguration\Neutral\Windows.winmd</HintPath>
     </Reference>
@@ -136,6 +149,19 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Activity\SettingPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Toolkit.Content\ApplicationBar.Add.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Cancel.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Check.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Delete.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Select.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Activity\TodoItemPageX.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
