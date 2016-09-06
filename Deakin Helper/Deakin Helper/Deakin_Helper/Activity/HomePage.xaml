@@ -4,7 +4,6 @@
              x:Class="Deakin_Helper.HomePage"
              Title="Home Page"
              BackgroundColor="White">
-  <ContentPage.Content>
     <StackLayout>
       <Label Text="User" FontSize="25" TextColor="White" BackgroundColor="Gray"/>
       <StackLayout Spacing="0" Orientation="Horizontal">
@@ -14,13 +13,44 @@
       </StackLayout>
       <Label x:Name="lblCourseName" Text="User's Course name" TextColor="Black"/>
       <Label Text="Today's Classes" FontSize="25" TextColor="White" BackgroundColor="Gray"/>
-      <ListView x:Name="lvAllClasses" SeparatorVisibility="None">
-      </ListView>
+
+      
+      <StackLayout x:Name="listViewStack">
+        <ListView x:Name="listView" HasUnevenRows="True"  ItemSelected="listItemSelected">
+          <ListView.ItemTemplate>
+            <DataTemplate>
+              <ViewCell>
+                <ViewCell.View>
+                  <StackLayout Padding="20,0,20,0"
+                               Orientation="Horizontal"
+                               HorizontalOptions="FillAndExpand">
+                    
+                    <Label Text="{Binding UnitCode}"
+                           VerticalTextAlignment="Center"
+                           HorizontalOptions="Fill" />
+                    <Label Text="{Binding UnitName}"
+                             VerticalTextAlignment="Center"
+                             HorizontalOptions="StartAndExpand" />
+                    <Label Text="{Binding Time}"
+                            VerticalTextAlignment="Center"
+                           HorizontalTextAlignment="End"
+                            HorizontalOptions="StartAndExpand" />
+                    
+                  </StackLayout>
+                </ViewCell.View>
+              </ViewCell>
+            </DataTemplate>
+          </ListView.ItemTemplate>
+        </ListView>
+      </StackLayout>
+      
       <StackLayout Spacing="0" Orientation="Horizontal">
         <Label x:Name="lblAllClass" Text="All Classes" TextColor="Black"/>
         <Label Text="" HorizontalOptions="CenterAndExpand"/>
         <Label x:Name="lblImage" Text="ArrowImageHere" TextColor="Black"/>
       </StackLayout>
+      
     </StackLayout>
-  </ContentPage.Content>
+
+
 </ContentPage>

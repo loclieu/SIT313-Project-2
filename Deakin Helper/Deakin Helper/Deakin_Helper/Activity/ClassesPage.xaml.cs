@@ -9,14 +9,16 @@ namespace Deakin_Helper
         public ClassesPage()
         {
             InitializeComponent();
+            
+            // Toolbar for each of OS running
             #region toolbar
             ToolbarItem tbi = null;
             if (Device.OS == TargetPlatform.iOS)
             {
                 tbi = new ToolbarItem("+", null, () =>
                 {
-                    var todoItem = new TodoItem();
-                    var todoPage = new TodoItemPageX();
+                    var todoItem = new Classes();
+                    var todoPage = new ClassesPageX();
                     todoPage.BindingContext = todoItem;
                     Navigation.PushAsync(todoPage);
                 }, 0, 0);
@@ -25,8 +27,8 @@ namespace Deakin_Helper
             { // BUG: Android doesn't support the icon being null
                 tbi = new ToolbarItem("+", "plus", () =>
                 {
-                    var todoItem = new TodoItem();
-                    var todoPage = new TodoItemPageX();
+                    var todoItem = new Classes();
+                    var todoPage = new ClassesPageX();
                     todoPage.BindingContext = todoItem;
                     Navigation.PushAsync(todoPage);
                 }, 0, 0);
@@ -44,22 +46,10 @@ namespace Deakin_Helper
 
             ToolbarItems.Add(tbi);
 
-            if (Device.OS == TargetPlatform.iOS)
-            {
-                var tbi2 = new ToolbarItem("?", null, () =>
-                {
-                    var todos = App.Database.GetItemsNotDone();
-                    var tospeak = "";
-                    foreach (var t in todos)
-                        tospeak += t.Name + " ";
-                    if (tospeak == "") tospeak = "there are no tasks to do";
-
-                   
-                }, 0, 0);
-                ToolbarItems.Add(tbi2);
-            }
+           
             #endregion
         }
+        // Load the listview of data from database
         protected override void OnAppearing()
         {
             base.OnAppearing();
@@ -68,16 +58,17 @@ namespace Deakin_Helper
             listView.ItemsSource = App.Database.GetItems();
         }
 
+        // Selecting Items of the listview
         void listItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            var todoItem = (TodoItem)e.SelectedItem;
-            var todoPage = new TodoItemPageX();
-            todoPage.BindingContext = todoItem;
+            var ClassesItem = (Classes)e.SelectedItem;
+            var classPage = new ClassesPageX();
+            classPage.BindingContext = ClassesItem;
 
-            ((App)App.Current).ResumeAtTodoId = todoItem.ID;
-            Debug.WriteLine("setting ResumeAtTodoId = " + todoItem.ID);
+            ((App)App.Current).ResumeAtTodoId = ClassesItem.ID;
+            Debug.WriteLine("setting ResumeAtTodoId = " + ClassesItem.ID);
 
-            Navigation.PushAsync(todoPage);
+            Navigation.PushAsync(classPage);
         }
     }
 }

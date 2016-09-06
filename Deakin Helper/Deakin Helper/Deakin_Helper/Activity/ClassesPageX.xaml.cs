@@ -8,9 +8,9 @@ using Xamarin.Forms;
 
 namespace Deakin_Helper
 {
-    public partial class TodoItemPageX : ContentPage
+    public partial class ClassesPageX : ContentPage
     {
-        public TodoItemPageX()
+        public ClassesPageX()
         {
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, true);

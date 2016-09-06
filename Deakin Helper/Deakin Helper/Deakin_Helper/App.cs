@@ -6,24 +6,27 @@ namespace Deakin_Helper
 {
     public class App : Application
     {
-        static TodoItemDatabase database;
+        // Create Database
+        static ClassesDatabase database;
         public App()
         {
             // The root page of your application
             MainPage = new MainPage();
 
         }
-        public static TodoItemDatabase Database
+        // Create database if it doesn't exist
+        public static ClassesDatabase Database
         {
             get
             {
                 if (database == null)
                 {
-                    database = new TodoItemDatabase();
+                    database = new ClassesDatabase();
                 }
                 return database;
             }
         }
+
         public int ResumeAtTodoId { get; set; }
 
         protected override void OnStart()
@@ -34,6 +37,7 @@ namespace Deakin_Helper
             // always re-set when the app starts
             // users expect this (usually)
             //			Properties ["ResumeAtTodoId"] = "";
+            /*
             if (Properties.ContainsKey("ResumeAtTodoId"))
             {
                 var rati = Properties["ResumeAtTodoId"].ToString();
@@ -45,7 +49,7 @@ namespace Deakin_Helper
 
                     if (ResumeAtTodoId >= 0)
                     {
-                        var todoPage = new TodoItemPageX();
+                        var todoPage = new ClassesPageX();
                         todoPage.BindingContext = Database.GetItem(ResumeAtTodoId);
 
                         MainPage.Navigation.PushAsync(
@@ -53,7 +57,7 @@ namespace Deakin_Helper
                             false); // no animation
                     }
                 }
-            }
+            }*/
         }
 
         protected override void OnSleep()

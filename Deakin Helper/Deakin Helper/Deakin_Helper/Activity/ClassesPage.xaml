@@ -12,12 +12,16 @@
                          Orientation="Horizontal"
                          HorizontalOptions="FillAndExpand">
 
-              <Label Text="{Binding Name}"
+              <Label Text="{Binding UnitCode}"
                      VerticalTextAlignment="Center"
-                     HorizontalOptions="StartAndExpand" />
-              <Image Source="check.png"
-                     HorizontalOptions="End"
-                     IsVisible="{Binding Done}"/>
+                     HorizontalOptions="Fill" />
+              <Label Text="{Binding UnitName}"
+                       VerticalTextAlignment="Center"
+                       HorizontalOptions="StartAndExpand" />
+              <Label Text="{Binding Time}"
+                      VerticalTextAlignment="Center"
+                     HorizontalTextAlignment="End"
+                      HorizontalOptions="StartAndExpand" />
 
             </StackLayout>
           </ViewCell.View>

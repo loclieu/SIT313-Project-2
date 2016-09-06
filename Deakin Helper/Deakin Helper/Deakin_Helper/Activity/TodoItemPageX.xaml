@@ -18,7 +18,5 @@
 
     <Button Text="Cancel" Clicked="cancelClicked"/>
 
-    <Button Text="Speak" Clicked="speakClicked"/>
-
   </StackLayout>
 </ContentPage>
