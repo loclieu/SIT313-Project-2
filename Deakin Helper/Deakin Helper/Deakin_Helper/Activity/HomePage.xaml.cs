@@ -31,12 +31,13 @@ namespace Deakin_Helper
             var allItem = App.Database.GetItems();
             int count = allItem.Count();
             // Change listview height corresponding to the number of items
-            listViewStack.HeightRequest = count * 20;    
+            listViewStack.HeightRequest = count * 30;    
         }
 
         void listItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             
         }
+
     }
 }

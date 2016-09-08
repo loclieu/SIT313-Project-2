@@ -16,26 +16,37 @@
 
       
       <StackLayout x:Name="listViewStack">
-        <ListView x:Name="listView" HasUnevenRows="True"  ItemSelected="listItemSelected">
+        <ListView x:Name="listView" ItemSelected="listItemSelected">
           <ListView.ItemTemplate>
             <DataTemplate>
               <ViewCell>
                 <ViewCell.View>
-                  <StackLayout Padding="20,0,20,0"
-                               Orientation="Horizontal"
-                               HorizontalOptions="FillAndExpand">
+                  <StackLayout Orientation="Vertical" Padding="20,0,0,0">
+                  <StackLayout Orientation="Horizontal"
+                               HorizontalOptions="FillAndExpand"
+                               Spacing="0">
                     
                     <Label Text="{Binding UnitCode}"
                            VerticalTextAlignment="Center"
-                           HorizontalOptions="Fill" />
-                    <Label Text="{Binding UnitName}"
-                             VerticalTextAlignment="Center"
-                             HorizontalOptions="StartAndExpand" />
+                           HorizontalOptions="Fill"
+                           TextColor="Black"/>               
+                    <Label Text ="-"
+                           VerticalTextAlignment="Center"/>
+                    <Label Text="{Binding ClassType}"
+                           VerticalTextAlignment="Center"
+                           HorizontalOptions="StartAndExpand" 
+                           TextColor="Black"/>
                     <Label Text="{Binding Time}"
-                            VerticalTextAlignment="Center"
-                           HorizontalTextAlignment="End"
-                            HorizontalOptions="StartAndExpand" />
-                    
+                           VerticalTextAlignment="Center"
+                           HorizontalTextAlignment="Start"
+                           HorizontalOptions="EndAndExpand"
+                           TextColor="Black"/>
+                  </StackLayout>
+                    <StackLayout >
+                    <Label Text="{Binding UnitName}" 
+                           VerticalTextAlignment="Start" 
+                           HorizontalOptions="Fill"/>
+                    </StackLayout>
                   </StackLayout>
                 </ViewCell.View>
               </ViewCell>
@@ -47,9 +58,11 @@
       <StackLayout Spacing="0" Orientation="Horizontal">
         <Label x:Name="lblAllClass" Text="All Classes" TextColor="Black"/>
         <Label Text="" HorizontalOptions="CenterAndExpand"/>
-        <Label x:Name="lblImage" Text="ArrowImageHere" TextColor="Black"/>
+        <Label x:Name="lblImage" Text=">" TextColor="Black"/>
       </StackLayout>
       
+       <Label Text="Assignment Due" FontSize="25" TextColor="White" BackgroundColor="Gray"/>
+  
     </StackLayout>
 
 

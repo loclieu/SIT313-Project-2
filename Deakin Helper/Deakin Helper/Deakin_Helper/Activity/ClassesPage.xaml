@@ -20,8 +20,8 @@
                        HorizontalOptions="StartAndExpand" />
               <Label Text="{Binding Time}"
                       VerticalTextAlignment="Center"
-                     HorizontalTextAlignment="End"
-                      HorizontalOptions="StartAndExpand" />
+                     HorizontalTextAlignment="Start"
+                      HorizontalOptions="EndAndExpand" />
 
             </StackLayout>
           </ViewCell.View>
