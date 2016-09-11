@@ -4,7 +4,7 @@
 			 x:Class="Deakin_Helper.MasterPage"
 			 Padding="0,40,0,0"
 			 Icon="hamburger.png"
-			 Title="Home">
+			 Title="Menu">
   <ContentPage.Content>
     <StackLayout VerticalOptions="FillAndExpand">
       <ListView x:Name="listView" VerticalOptions="FillAndExpand" SeparatorVisibility="None">

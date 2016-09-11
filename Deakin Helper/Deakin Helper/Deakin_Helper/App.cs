@@ -13,6 +13,9 @@ namespace Deakin_Helper
             // The root page of your application
             MainPage = new MainPage();
 
+            // Set colours (not working)
+            MainPage.SetValue(VisualElement.BackgroundColorProperty, Color.Purple);
+
         }
         // Create database if it doesn't exist
         public static ClassesDatabase Database

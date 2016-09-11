@@ -173,6 +173,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\check.png" />
+    <BundleResource Include="Resources\hamburger.png" />
     <Content Include="Resources\plus.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
