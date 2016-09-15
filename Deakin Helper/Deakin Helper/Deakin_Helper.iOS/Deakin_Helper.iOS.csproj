@@ -97,6 +97,7 @@
     <ITunesArtwork Include="iTunesArtwork" />
     <ITunesArtwork Include="iTunesArtwork@2x" />
     <None Include="packages.config" />
+    <BundleResource Include="Resources\ClassesDB.db3" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Default-568h%402x.png" />
@@ -160,19 +161,12 @@
     <BundleResource Include="Resources\icon_assignments.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\icon_classes.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\icon_cloud.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\icon_home.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\icon_settings.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Resources\check.png" />
+    <BundleResource Include="Resources\hamburger.png" />
+    <BundleResource Include="Resources\icon_classes.png" />
+    <BundleResource Include="Resources\icon_cloud.png" />
+    <BundleResource Include="Resources\icon_home.png" />
+    <BundleResource Include="Resources\icon_settings.png" />
     <Content Include="Resources\plus.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

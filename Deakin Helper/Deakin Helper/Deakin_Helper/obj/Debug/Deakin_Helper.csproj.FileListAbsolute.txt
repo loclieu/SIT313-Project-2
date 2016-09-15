@@ -1,18 +1,40 @@
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\Deakin_Helper.dll
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\Deakin_Helper.pdb
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\Windows.winmd
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\Xamarin.Forms.Core.dll
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\Xamarin.Forms.Platform.dll
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\Xamarin.Forms.Xaml.dll
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\Xamarin.Forms.Core.xml
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\Xamarin.Forms.Xaml.xml
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.Navigation.MainPage.xaml.g.cs
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.Navigation.MasterPage.xaml.g.cs
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.ContactsPage.xaml.g.cs
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.HomePage.xaml.g.cs
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.dll
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.pdb
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.dll.mdb
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\Deakin_Helper.dll.mdb
-A:\User\Documents\GitHub\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\System.Data.dll
-A:\User\Documents\GitHub\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\System.dll
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\Deakin_Helper.dll
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\Deakin_Helper.pdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\Mono.Data.Sqlite.dll
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\SQLite-net.dll
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\SQLitePCL.batteries.dll
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\SQLitePCL.raw.dll
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\System.Data.dll
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\System.dll
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\System.Transactions.dll
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\System.Xml.dll
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\Mono.Data.Tds.dll
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\System.Core.dll
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\Mono.Dynamic.Interpreter.dll
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\SQLite-net.xml
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.csprojResolveAssemblyReference.cache
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.Navigation.MainPage.xaml.g.cs
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.Navigation.MasterPage.xaml.g.cs
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.Activity.ContactsPage.xaml.g.cs
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.Activity.HomePage.xaml.g.cs
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.Activity.ClassesPage.xaml.g.cs
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.Activity.AssignmentPage.xaml.g.cs
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.Activity.CloudDeakinPage.xaml.g.cs
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.Activity.SettingPage.xaml.g.cs
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.Activity.TodoItemPageX.xaml.g.cs
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.Activity.ClassesPageX.xaml.g.cs
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.dll
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.pdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.dll.mdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\Deakin_Helper.dll.mdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.dll.mdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\Deakin_Helper.dll.mdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.dll.mdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\Deakin_Helper.dll.mdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.dll.mdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\Deakin_Helper.dll.mdb
