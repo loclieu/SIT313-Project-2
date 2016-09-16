@@ -17,8 +17,24 @@ namespace Deakin_Helper {
     public partial class SettingPage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Entry fullNameEntry;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Entry emailEntry;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Entry studentIDEntry;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Entry courseEntry;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(SettingPage));
+            fullNameEntry = this.FindByName<global::Xamarin.Forms.Entry>("fullNameEntry");
+            emailEntry = this.FindByName<global::Xamarin.Forms.Entry>("emailEntry");
+            studentIDEntry = this.FindByName<global::Xamarin.Forms.Entry>("studentIDEntry");
+            courseEntry = this.FindByName<global::Xamarin.Forms.Entry>("courseEntry");
         }
     }
 }

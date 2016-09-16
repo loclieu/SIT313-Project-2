@@ -34,5 +34,3 @@ C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_He
 C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\Deakin_Helper.dll.mdb
 C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.dll.mdb
 C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\Deakin_Helper.dll.mdb
-C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.dll.mdb
-C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\Deakin_Helper.dll.mdb
