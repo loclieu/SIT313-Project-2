@@ -17,8 +17,12 @@ namespace Deakin_Helper {
     public partial class CloudDeakinPage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.WebView webview;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(CloudDeakinPage));
+            webview = this.FindByName<global::Xamarin.Forms.WebView>("webview");
         }
     }
 }

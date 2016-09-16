@@ -42,8 +42,8 @@ C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_He
 C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\res\drawable\icon_settings.png
 C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\R.cs.flag
 C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\uploadflags.txt
-C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Deakin_Helper.Droid.dll.mdb
 C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Deakin_Helper.Droid.dll.config
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Deakin_Helper.Droid.dll.mdb
 C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Deakin_Helper.dll.mdb
 C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Java.Interop.dll.mdb
 C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Mono.Android.dll.mdb
