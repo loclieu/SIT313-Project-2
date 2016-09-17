@@ -172,6 +172,7 @@
     <AndroidResource Include="Resources\drawable\icon_settings.png" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidResource Include="Resources\drawable\icon_addClasses.png" />
     <Content Include="Resources\drawable\check.png" />
     <Content Include="Resources\drawable\plus.png" />
   </ItemGroup>

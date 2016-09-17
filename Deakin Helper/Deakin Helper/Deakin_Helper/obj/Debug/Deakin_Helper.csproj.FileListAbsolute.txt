@@ -14,5 +14,3 @@ a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin
 a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.pdb
 a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.dll.mdb
 a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\Deakin_Helper.dll.mdb
-A:\User\Documents\GitHub\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\System.Data.dll
-A:\User\Documents\GitHub\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\System.dll

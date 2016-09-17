@@ -25,7 +25,7 @@ namespace Deakin_Helper
             }
             if (Device.OS == TargetPlatform.Android)
             { // BUG: Android doesn't support the icon being null
-                tbi = new ToolbarItem("+", "plus", () =>
+                tbi = new ToolbarItem("+", "icon_addClasses", () =>
                 {
                     var todoItem = new Classes();
                     var todoPage = new ClassesPageX();
@@ -54,7 +54,7 @@ namespace Deakin_Helper
         {
             base.OnAppearing();
             // reset the 'resume' id, since we just want to re-start here
-            ((App)App.Current).ResumeAtTodoId = -1;
+            ((App)App.Current).ResumeAtClassesId = -1;
             listView.ItemsSource = App.Database.GetItems();
         }
 
@@ -65,8 +65,8 @@ namespace Deakin_Helper
             var classPage = new ClassesPageX();
             classPage.BindingContext = ClassesItem;
 
-            ((App)App.Current).ResumeAtTodoId = ClassesItem.ID;
-            Debug.WriteLine("setting ResumeAtTodoId = " + ClassesItem.ID);
+            ((App)App.Current).ResumeAtClassesId = ClassesItem.ID;
+            Debug.WriteLine("setting ResumeAtClassesId = " + ClassesItem.ID);
 
             Navigation.PushAsync(classPage);
         }

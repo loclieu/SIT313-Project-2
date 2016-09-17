@@ -62,7 +62,19 @@
       </StackLayout>
       
        <Label Text="Assignment Due" FontSize="25" TextColor="White" BackgroundColor="Gray"/>
-  
+
+      <StackLayout x:Name="assignmentStackView">
+        <ListView x:Name="assignmentListView" ItemSelected="AssignmentItemSelected">
+          <ListView.ItemTemplate>
+            <DataTemplate>               
+                  <TextCell
+                    Text="{Binding topLine}"
+                    Detail="{Binding botLine}"/>
+            </DataTemplate>
+          </ListView.ItemTemplate>
+        </ListView>
+      </StackLayout>
+
     </StackLayout>
 
 

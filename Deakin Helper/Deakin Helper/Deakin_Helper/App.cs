@@ -8,6 +8,8 @@ namespace Deakin_Helper
     {
         // Create Database
         static ClassesDatabase database;
+        static AssignmentDatabase assignmentdb;
+
         public App()
         {
             // The root page of your application
@@ -27,7 +29,21 @@ namespace Deakin_Helper
             }
         }
 
-        public int ResumeAtTodoId { get; set; }
+        // Create database if it doesn't exist
+        public static AssignmentDatabase AssignmentDB
+        {
+            get
+            {
+                if (assignmentdb == null)
+                {
+                    assignmentdb = new AssignmentDatabase();
+                }
+                return assignmentdb;
+            }
+        }
+
+        public int ResumeAtClassesId { get; set; }
+        public int ResumeAtAssignmentId { get; set; }
 
         protected override void OnStart()
         {
@@ -63,10 +79,12 @@ namespace Deakin_Helper
         protected override void OnSleep()
         {
             // Handle when your app sleeps
-            Debug.WriteLine("OnSleep saving ResumeAtTodoId = " + ResumeAtTodoId);
+            Debug.WriteLine("OnSleep saving ResumeAtClassesId = " + ResumeAtClassesId);
+            Debug.WriteLine("OnSleep saving ResumeAtClassesId = " + ResumeAtAssignmentId);
             // the app should keep updating this value, to
             // keep the "state" in case of a sleep/resume
-            Properties["ResumeAtTodoId"] = ResumeAtTodoId;
+            Properties["ResumeAtClassesId"] = ResumeAtClassesId;
+            Properties["ResumeAtAssignmentId"] = ResumeAtAssignmentId;
         }
 
         protected override void OnResume()

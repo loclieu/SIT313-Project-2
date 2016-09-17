@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Deakin_Helper.AssignmentPageX"
+             Title="{Binding Name}">
+  <StackLayout VerticalOptions="StartAndExpand" Padding="20">
+
+    <Label Text="Unit Code" />
+    <Entry x:Name="unitCodeEntry" Placeholder="Unit Code" Text="{Binding UnitCode}"/>
+    
+    <Label Text="Unit Name" />
+    <Entry x:Name="unitNameEntry" Placeholder="Unit Name" Text="{Binding UnitName}"/>
+    
+    <Label Text="Assignment Name" />
+    <Entry x:Name="assignmentNameEntry" Placeholder="Assignment Name" Text="{Binding AssignmentName}"/>
+    
+    <Label Text="Date" />
+    <Entry x:Name="dateEntry" Placeholder="Due Date" Text="{Binding Day}"/>
+    
+    <Label Text="Time" />
+    <Entry x:Name="timeEntry" Placeholder="Time" Text="{Binding Time}"/>
+
+    <Button Text="Save" Clicked="saveClicked"/>
+
+    <Button Text="Delete" Clicked="deleteClicked"/>
+
+    <Button Text="Cancel" Clicked="cancelClicked"/>
+
+  </StackLayout>
+</ContentPage>

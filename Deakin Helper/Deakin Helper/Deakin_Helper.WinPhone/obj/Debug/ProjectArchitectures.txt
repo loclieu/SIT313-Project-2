@@ -1,0 +1,2 @@
+A:\User\Documents\GitHub\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.WinPhone\Deakin_Helper.WinPhone.csproj;neutral
+A:\User\Documents\GitHub\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\Deakin_Helper.csproj;neutral
