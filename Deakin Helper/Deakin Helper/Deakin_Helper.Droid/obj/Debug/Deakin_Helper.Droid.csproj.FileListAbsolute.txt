@@ -71,4 +71,3 @@ C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_He
 C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
 C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\Deakin_Helper.Droid.dll.mdb
-C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Deakin_Helper.Droid.dll.mdb

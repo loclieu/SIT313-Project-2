@@ -32,5 +32,14 @@ C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_He
 C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.pdb
 C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.dll.mdb
 C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\Deakin_Helper.dll.mdb
-C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.dll.mdb
-C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\bin\Debug\Deakin_Helper.dll.mdb
+C:\Users\Andrew\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.Navigation.MainPage.xaml.g.cs
+C:\Users\Andrew\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.Navigation.MasterPage.xaml.g.cs
+C:\Users\Andrew\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.Activity.ContactsPage.xaml.g.cs
+C:\Users\Andrew\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.Activity.HomePage.xaml.g.cs
+C:\Users\Andrew\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.Activity.ClassesPage.xaml.g.cs
+C:\Users\Andrew\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.Activity.AssignmentPage.xaml.g.cs
+C:\Users\Andrew\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.Activity.CloudDeakinPage.xaml.g.cs
+C:\Users\Andrew\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.Activity.SettingPage.xaml.g.cs
+C:\Users\Andrew\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.Activity.TodoItemPageX.xaml.g.cs
+C:\Users\Andrew\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.Activity.ClassesPageX.xaml.g.cs
+C:\Users\Andrew\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper\obj\Debug\Deakin_Helper.Activity.SettingPageX.xaml.g.cs

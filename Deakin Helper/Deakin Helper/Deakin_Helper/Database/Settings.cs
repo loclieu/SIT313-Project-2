@@ -2,8 +2,13 @@
 
 namespace Deakin_Helper
 {
-    class Settings
+    public class Settings
     {
+        public Settings()
+        {
+        }
+
+
         [PrimaryKey, AutoIncrement]
         public int ID { get; set; }
         public string FullName { get; set; }

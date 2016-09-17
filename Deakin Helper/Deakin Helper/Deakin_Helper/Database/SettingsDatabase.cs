@@ -5,7 +5,7 @@ using Xamarin.Forms;
 
 namespace Deakin_Helper
 {
-    class SettingsDatabase
+    public class SettingsDatabase
     {
         static object locker = new object();
 
@@ -65,6 +65,14 @@ namespace Deakin_Helper
                 {
                     return database.Insert(item);
                 }
+            }
+        }
+
+        public int DeleteItem(int id)
+        {
+            lock (locker)
+            {
+                return database.Delete<Classes>(id);
             }
         }
     }

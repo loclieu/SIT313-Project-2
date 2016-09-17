@@ -8,12 +8,15 @@ namespace Deakin_Helper
     {
         // Create Database
         static ClassesDatabase database;
+        static SettingsDatabase settingsDatabase;
+
         public App()
         {
             // The root page of your application
             MainPage = new MainPage();
 
         }
+        
         // Create database if it doesn't exist
         public static ClassesDatabase Database
         {
@@ -24,6 +27,19 @@ namespace Deakin_Helper
                     database = new ClassesDatabase();
                 }
                 return database;
+            }
+        }
+
+        // Create database if it doesn't exist
+        public static SettingsDatabase Database_Settings
+        {
+            get
+            {
+                if (settingsDatabase == null)
+                {
+                    settingsDatabase = new SettingsDatabase();
+                }
+                return settingsDatabase;
             }
         }
 
