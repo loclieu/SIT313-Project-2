@@ -1,59 +1,73 @@
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Deakin_Helper.Droid.dll
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Deakin_Helper.Droid.pdb
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Deakin_Helper.Droid.apk
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Deakin_Helper.Droid-Signed.apk
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Deakin_Helper.dll
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\FormsViewGroup.dll
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Xamarin.Android.Support.Design.dll
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Xamarin.Android.Support.v4.dll
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Xamarin.Forms.Core.dll
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Xamarin.Forms.Platform.dll
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Xamarin.Forms.Xaml.dll
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Deakin_Helper.pdb
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Xamarin.Forms.Core.xml
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\Deakin_Helper.Droid.csprojResolveAssemblyReference.cache
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\Deakin_Helper.Droid.dll
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\Deakin_Helper.Droid.pdb
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\android\bin\Deakin_Helper.Droid.apk
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\res\drawable\icon.png
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\res\drawable-hdpi\icon.png
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\res\drawable-xhdpi\icon.png
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\res\drawable-xxhdpi\icon.png
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\res\drawable\contacts.png
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\res\drawable\hamburger.png
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\res\drawable\reminders.png
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\res\drawable\todo.png
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\R.cs.flag
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\uploadflags.txt
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Deakin_Helper.Droid.dll.mdb
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Deakin_Helper.dll.mdb
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Java.Interop.dll.mdb
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Mono.Android.dll.mdb
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\mscorlib.dll.mdb
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\System.ComponentModel.Composition.dll.mdb
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\System.Core.dll.mdb
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\System.dll.mdb
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\System.Net.Http.dll.mdb
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\System.Runtime.Serialization.dll.mdb
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\System.ServiceModel.Internals.dll.mdb
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\System.Xml.dll.mdb
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\System.Xml.Linq.dll.mdb
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\android\assets\Deakin_Helper.dll.mdb
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\android\assets\Deakin_Helper.Droid.dll.mdb
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\android\assets\Java.Interop.dll.mdb
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\android\assets\Mono.Android.dll.mdb
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\android\assets\mscorlib.dll.mdb
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\android\assets\System.Core.dll.mdb
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\android\assets\System.dll.mdb
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\android\assets\System.Net.Http.dll.mdb
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\android\assets\System.Xml.dll.mdb
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
-a:\user\documents\visual studio 2015\Projects\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\Deakin_Helper.Droid.dll.mdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Deakin_Helper.Droid.dll
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Deakin_Helper.Droid.pdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Deakin_Helper.Droid.apk
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Deakin_Helper.Droid-Signed.apk
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Deakin_Helper.dll
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\FormsViewGroup.dll
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\SQLite-net.dll
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\SQLitePCL.batteries.dll
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\SQLitePCL.raw.dll
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\SQLitePCLPlugin_esqlite3.dll
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Xamarin.Android.Support.Design.dll
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Xamarin.Android.Support.v4.dll
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Xamarin.Android.Support.v7.AppCompat.dll
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Xamarin.Android.Support.v7.CardView.dll
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Xamarin.Android.Support.v7.MediaRouter.dll
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Xamarin.Forms.Platform.Android.dll
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Deakin_Helper.pdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\SQLite-net.xml
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\SQLite-net.dll.mdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\Deakin_Helper.Droid.csprojResolveAssemblyReference.cache
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\Deakin_Helper.Droid.dll
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\Deakin_Helper.Droid.pdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\android\bin\Deakin_Helper.Droid.apk
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\res\raw\classesdb.db3
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\res\drawable\icon.png
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\res\drawable-hdpi\icon.png
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\res\drawable-xhdpi\icon.png
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\res\drawable-xxhdpi\icon.png
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\res\drawable\contacts.png
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\res\drawable\hamburger.png
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\res\drawable\reminders.png
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\res\drawable\todo.png
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\res\drawable\icon_assignments.png
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\res\drawable\icon_classes.png
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\res\drawable\icon_cloud.png
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\res\drawable\icon_home.png
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\res\drawable\icon_settings.png
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\R.cs.flag
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\uploadflags.txt
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Deakin_Helper.Droid.dll.mdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Deakin_Helper.Droid.dll.config
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Deakin_Helper.dll.mdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Java.Interop.dll.mdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\Mono.Android.dll.mdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\mscorlib.dll.mdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\System.ComponentModel.Composition.dll.mdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\System.Core.dll.mdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\System.dll.mdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\System.Net.Http.dll.mdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\System.Runtime.Serialization.dll.mdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\System.ServiceModel.Internals.dll.mdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\System.Xml.dll.mdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\bin\Debug\System.Xml.Linq.dll.mdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\android\assets\Deakin_Helper.dll.mdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\android\assets\Deakin_Helper.Droid.dll.mdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\android\assets\Java.Interop.dll.mdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\android\assets\Mono.Android.dll.mdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\android\assets\mscorlib.dll.mdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\android\assets\SQLite-net.dll.mdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\android\assets\System.ComponentModel.Composition.dll.mdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\android\assets\System.Core.dll.mdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\android\assets\System.dll.mdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\android\assets\System.Net.Http.dll.mdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\android\assets\System.Runtime.Serialization.dll.mdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\android\assets\System.Xml.dll.mdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Users\aag\Source\Repos\SIT313-Project-2\Deakin Helper\Deakin Helper\Deakin_Helper.Droid\obj\Debug\Deakin_Helper.Droid.dll.mdb

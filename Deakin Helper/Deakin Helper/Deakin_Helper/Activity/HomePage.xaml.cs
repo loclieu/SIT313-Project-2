@@ -15,14 +15,14 @@ namespace Deakin_Helper
         {
             InitializeComponent();
         }
-        
+
         protected override void OnAppearing()
         {
             base.OnAppearing();
-        
+
             DateTime today = DateTime.Today;
             string day = today.DayOfWeek.ToString();
-       
+
             // reset the 'resume' id, since we just want to re-start here
             ((App)App.Current).ResumeAtClassesId = -1;
             ((App)App.Current).ResumeAtAssignmentId = -1;
@@ -44,10 +44,10 @@ namespace Deakin_Helper
 
         void listItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            
+
         }
-        
-         void AssignmentItemSelected(object sender, SelectedItemChangedEventArgs e)
+
+        void AssignmentItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
 
         }

@@ -9,7 +9,7 @@ namespace Deakin_Helper
         public ClassesPage()
         {
             InitializeComponent();
-            
+
             // Toolbar for each of OS running
             #region toolbar
             ToolbarItem tbi = null;
@@ -25,7 +25,7 @@ namespace Deakin_Helper
             }
             if (Device.OS == TargetPlatform.Android)
             { // BUG: Android doesn't support the icon being null
-                tbi = new ToolbarItem("+", "icon_addClasses", () =>
+                tbi = new ToolbarItem("+", "Add", () =>
                 {
                     var todoItem = new Classes();
                     var todoPage = new ClassesPageX();
@@ -46,7 +46,7 @@ namespace Deakin_Helper
 
             ToolbarItems.Add(tbi);
 
-           
+
             #endregion
         }
         // Load the listview of data from database

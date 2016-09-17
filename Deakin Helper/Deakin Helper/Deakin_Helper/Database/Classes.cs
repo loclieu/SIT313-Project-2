@@ -17,7 +17,5 @@ namespace Deakin_Helper
         public string Day { get; set; }
         public string Time { get; set; }
         public string ClassType { get; set; }
-
-    
     }
 }

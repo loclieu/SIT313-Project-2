@@ -29,7 +29,7 @@ namespace Deakin_Helper
             }
             if (Device.OS == TargetPlatform.Android)
             { // BUG: Android doesn't support the icon being null
-                tbi = new ToolbarItem("+", "icon_addClasses", () =>
+                tbi = new ToolbarItem("+", "Add", () =>
                 {
                     var assignmentItem = new Assignment();
                     var assignmentPage = new AssignmentPageX();

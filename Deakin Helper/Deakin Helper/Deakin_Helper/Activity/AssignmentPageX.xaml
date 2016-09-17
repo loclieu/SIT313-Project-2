@@ -7,16 +7,16 @@
 
     <Label Text="Unit Code" />
     <Entry x:Name="unitCodeEntry" Placeholder="Unit Code" Text="{Binding UnitCode}"/>
-    
+
     <Label Text="Unit Name" />
     <Entry x:Name="unitNameEntry" Placeholder="Unit Name" Text="{Binding UnitName}"/>
-    
+
     <Label Text="Assignment Name" />
     <Entry x:Name="assignmentNameEntry" Placeholder="Assignment Name" Text="{Binding AssignmentName}"/>
-    
+
     <Label Text="Date" />
     <Entry x:Name="dateEntry" Placeholder="Due Date" Text="{Binding Day}"/>
-    
+
     <Label Text="Time" />
     <Entry x:Name="timeEntry" Placeholder="Time" Text="{Binding Time}"/>
 

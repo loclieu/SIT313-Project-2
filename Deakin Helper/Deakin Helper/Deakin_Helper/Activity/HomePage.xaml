@@ -4,37 +4,37 @@
              x:Class="Deakin_Helper.HomePage"
              Title="Home Page"
              BackgroundColor="White">
-    <StackLayout>
-      <Label Text="User" FontSize="25" TextColor="White" BackgroundColor="Gray"/>
-      <StackLayout Spacing="0" Orientation="Horizontal">
-        <Label x:Name="lblName" Text="User's Name" TextColor="Black"/>
-        <Label Text="" HorizontalOptions="CenterAndExpand"/>
-        <Label x:Name="lblID" Text="ID:0000000" TextColor="Black"/>
-      </StackLayout>
-      <Label x:Name="lblCourseName" Text="User's Course name" TextColor="Black"/>
-      <Label Text="Today's Classes" FontSize="25" TextColor="White" BackgroundColor="Gray"/>
+  <StackLayout>
+    <Label Text="User" FontSize="25" TextColor="White" BackgroundColor="Gray"/>
+    <StackLayout Spacing="0" Orientation="Horizontal">
+      <Label x:Name="lblName" Text="User's Name" TextColor="Black"/>
+      <Label Text="" HorizontalOptions="CenterAndExpand"/>
+      <Label x:Name="lblID" Text="ID:0000000" TextColor="Black"/>
+    </StackLayout>
+    <Label x:Name="lblCourseName" Text="User's Course name" TextColor="Black"/>
+    <Label Text="Today's Classes" FontSize="25" TextColor="White" BackgroundColor="Gray"/>
 
-      
-      <StackLayout x:Name="listViewStack">
-        <ListView x:Name="listView" ItemSelected="listItemSelected">
-          <ListView.ItemTemplate>
-            <DataTemplate>
-              <ViewCell>
-                <ViewCell.View>
-                  <StackLayout Orientation="Vertical" Padding="20,0,0,0">
+
+    <StackLayout x:Name="listViewStack">
+      <ListView x:Name="listView" ItemSelected="listItemSelected">
+        <ListView.ItemTemplate>
+          <DataTemplate>
+            <ViewCell>
+              <ViewCell.View>
+                <StackLayout Orientation="Vertical" Padding="20,0,0,0">
                   <StackLayout Orientation="Horizontal"
                                HorizontalOptions="FillAndExpand"
                                Spacing="0">
-                    
+
                     <Label Text="{Binding UnitCode}"
                            VerticalTextAlignment="Center"
                            HorizontalOptions="Fill"
-                           TextColor="Black"/>               
+                           TextColor="Black"/>
                     <Label Text ="-"
                            VerticalTextAlignment="Center"/>
                     <Label Text="{Binding ClassType}"
                            VerticalTextAlignment="Center"
-                           HorizontalOptions="StartAndExpand" 
+                           HorizontalOptions="StartAndExpand"
                            TextColor="Black"/>
                     <Label Text="{Binding Time}"
                            VerticalTextAlignment="Center"
@@ -42,40 +42,67 @@
                            HorizontalOptions="EndAndExpand"
                            TextColor="Black"/>
                   </StackLayout>
-                    <StackLayout >
-                    <Label Text="{Binding UnitName}" 
-                           VerticalTextAlignment="Start" 
+                  <StackLayout >
+                    <Label Text="{Binding UnitName}"
+                           VerticalTextAlignment="Start"
                            HorizontalOptions="Fill"/>
-                    </StackLayout>
                   </StackLayout>
-                </ViewCell.View>
-              </ViewCell>
-            </DataTemplate>
-          </ListView.ItemTemplate>
-        </ListView>
-      </StackLayout>
-      
-      <StackLayout Spacing="0" Orientation="Horizontal">
-        <Label x:Name="lblAllClass" Text="All Classes" TextColor="Black"/>
-        <Label Text="" HorizontalOptions="CenterAndExpand"/>
-        <Label x:Name="lblImage" Text=">" TextColor="Black"/>
-      </StackLayout>
-      
-       <Label Text="Assignment Due" FontSize="25" TextColor="White" BackgroundColor="Gray"/>
-
-      <StackLayout x:Name="assignmentStackView">
-        <ListView x:Name="assignmentListView" ItemSelected="AssignmentItemSelected">
-          <ListView.ItemTemplate>
-            <DataTemplate>               
-                  <TextCell
-                    Text="{Binding topLine}"
-                    Detail="{Binding botLine}"/>
-            </DataTemplate>
-          </ListView.ItemTemplate>
-        </ListView>
-      </StackLayout>
-
+                </StackLayout>
+              </ViewCell.View>
+            </ViewCell>
+          </DataTemplate>
+        </ListView.ItemTemplate>
+      </ListView>
     </StackLayout>
+
+    <StackLayout Spacing="0" Orientation="Horizontal">
+      <Label Text="" HorizontalOptions="CenterAndExpand"/>
+      <Label x:Name="lblImage" Text=">" TextColor="Black"/>
+    </StackLayout>
+
+    <Label Text="Assignment Due" FontSize="25" TextColor="White" BackgroundColor="Gray"/>
+
+    <StackLayout x:Name="assignmentStackView">
+      <ListView x:Name="assignmentListView" ItemSelected="AssignmentItemSelected">
+        <ListView.ItemTemplate>
+          <DataTemplate>
+            <ViewCell>
+              <ViewCell.View>
+                <StackLayout Orientation="Vertical" Padding="20,0,0,0">
+                  <StackLayout Orientation="Horizontal"
+                               HorizontalOptions="FillAndExpand"
+                               Spacing="0">
+
+                    <Label Text="{Binding UnitCode}"
+                           VerticalTextAlignment="Center"
+                           HorizontalOptions="Fill"
+                           TextColor="Black"/>
+                    <Label Text ="-"
+                           VerticalTextAlignment="Center"/>
+                    <Label Text="{Binding AssignmentName}"
+                           VerticalTextAlignment="Center"
+                           HorizontalOptions="StartAndExpand"
+                           TextColor="Black"/>
+                    <Label Text="{Binding Time}"
+                           VerticalTextAlignment="Center"
+                           HorizontalTextAlignment="Start"
+                           HorizontalOptions="EndAndExpand"
+                           TextColor="Black"/>
+                  </StackLayout>
+                  <StackLayout >
+                    <Label Text="{Binding Day}"
+                           VerticalTextAlignment="Start"
+                           HorizontalOptions="Fill"/>
+                  </StackLayout>
+                </StackLayout>
+              </ViewCell.View>
+            </ViewCell>
+          </DataTemplate>
+        </ListView.ItemTemplate>
+      </ListView>
+    </StackLayout>
+
+  </StackLayout>
 
 
 </ContentPage>

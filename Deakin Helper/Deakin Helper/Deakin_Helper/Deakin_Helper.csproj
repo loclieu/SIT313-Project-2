@@ -38,11 +38,11 @@
     <Compile Include="Activity\AssignmentPage.xaml.cs">
       <DependentUpon>AssignmentPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Activity\ClassesPage.xaml.cs">
-      <DependentUpon>ClassesPage.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Activity\AssignmentPageX.xaml.cs">
       <DependentUpon>AssignmentPageX.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Activity\ClassesPage.xaml.cs">
+      <DependentUpon>ClassesPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Activity\CloudDeakinPage.xaml.cs">
       <DependentUpon>CloudDeakinPage.xaml</DependentUpon>
@@ -64,8 +64,8 @@
       <DependentUpon>HomePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Database\Assignment.cs" />
-    <Compile Include="Database\Classes.cs" />
     <Compile Include="Database\AssignmentDatabase.cs" />
+    <Compile Include="Database\Classes.cs" />
     <Compile Include="Database\ClassesDatabase.cs" />
     <Compile Include="Database\TodoItem.cs" />
     <Compile Include="Database\TodoItemDatabase.cs" />
