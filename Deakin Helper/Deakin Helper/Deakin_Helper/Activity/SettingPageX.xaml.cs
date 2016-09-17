@@ -1,8 +1,11 @@
 ﻿using System;
-
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace Deakin_Helper.Activity
+namespace Deakin_Helper
 {
     public partial class SettingPageX : ContentPage
     {

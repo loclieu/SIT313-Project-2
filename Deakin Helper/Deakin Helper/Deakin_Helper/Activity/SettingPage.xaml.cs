@@ -1,5 +1,6 @@
-﻿using System.Diagnostics;
+﻿using System;
 using Xamarin.Forms;
+using System.Diagnostics;
 
 namespace Deakin_Helper
 {

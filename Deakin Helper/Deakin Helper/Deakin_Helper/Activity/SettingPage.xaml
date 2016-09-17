@@ -23,10 +23,9 @@
                      HorizontalTextAlignment="Start"
                       HorizontalOptions="EndAndExpand" />
               <Label Text="{Binding Course}"
-        VerticalTextAlignment="Center"
-       HorizontalTextAlignment="Start"
-        HorizontalOptions="EndAndExpand" />
-
+                      VerticalTextAlignment="Center"
+                     HorizontalTextAlignment="Start"
+                      HorizontalOptions="EndAndExpand" />
             </StackLayout>
           </ViewCell.View>
         </ViewCell>
