@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Deakin_Helper.SettingPageX"
+             Title="{Binding Name}">
+    <StackLayout VerticalOptions="StartAndExpand" Padding="20">
+
+      <Label Text="Full Name" />
+      <Entry x:Name="fullNameEntry" Placeholder="Full Name" Text="{Binding FullName}"/>
+
+      <Label Text="Email" />
+      <Entry x:Name="emailEntry" Placeholder="Email" Text="{Binding Email}"/>
+
+      <Label Text="Student ID" />
+      <Entry x:Name="studentIDEntry" Placeholder="Student ID" Text="{Binding StudentID}"/>
+
+      <Label Text="Course" />
+      <Entry x:Name="courseEntry" Placeholder="Course" Text="{Binding Course}"/>
+
+      <Button Text="Save" Clicked="saveClicked"/>
+
+      <Button Text="Delete" Clicked="deleteClicked"/>
+
+      <Button Text="Cancel" Clicked="cancelClicked"/>
+
+    </StackLayout>
+</ContentPage>

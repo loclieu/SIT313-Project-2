@@ -5,7 +5,11 @@
              Title="Cloud Deakin">
   <ContentPage.Content>
     <StackLayout>
-      <Label Text="Cloud Deakin data goes here" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+            <WebView x:Name="webview" WidthRequest="1000" HeightRequest="1000" />
+                <StackLayout Orientation="Horizontal" Padding="7,7">
+                <Button Text="Back" HorizontalOptions="StartAndExpand" Clicked="backClicked" />
+                <Button Text="Forward" HorizontalOptions="End" Clicked="forwardClicked" />
+            </StackLayout>
+        </StackLayout>
   </ContentPage.Content>
 </ContentPage>

@@ -53,6 +53,9 @@
     <Compile Include="Activity\ClassesPageX.xaml.cs">
       <DependentUpon>ClassesPageX.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Activity\SettingPageX.xaml.cs">
+      <DependentUpon>SettingPageX.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Activity\TodoItemPageX.xaml.cs">
       <DependentUpon>TodoItemPageX.xaml</DependentUpon>
     </Compile>
@@ -63,10 +66,12 @@
     <Compile Include="Activity\HomePage.xaml.cs">
       <DependentUpon>HomePage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Database\SettingsDatabase.cs" />
     <Compile Include="Database\Assignment.cs" />
     <Compile Include="Database\AssignmentDatabase.cs" />
     <Compile Include="Database\Classes.cs" />
     <Compile Include="Database\ClassesDatabase.cs" />
+    <Compile Include="Database\Settings.cs" />
     <Compile Include="Database\TodoItem.cs" />
     <Compile Include="Database\TodoItemDatabase.cs" />
     <Compile Include="Database\ISQLite.cs" />
@@ -184,6 +189,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Activity\AssignmentPageX.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Activity\SettingPageX.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

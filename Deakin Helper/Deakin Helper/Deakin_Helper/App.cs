@@ -8,6 +8,8 @@ namespace Deakin_Helper
     {
         // Create Database
         static ClassesDatabase database;
+        static SettingsDatabase settingsDatabase;
+
         static AssignmentDatabase assignmentdb;
 
         public App()
@@ -16,6 +18,7 @@ namespace Deakin_Helper
             MainPage = new MainPage();
 
         }
+        
         // Create database if it doesn't exist
         public static ClassesDatabase Database
         {
@@ -42,6 +45,20 @@ namespace Deakin_Helper
             }
         }
 
+        // Create database if it doesn't exist
+        public static SettingsDatabase Database_Settings
+        {
+            get
+            {
+                if (settingsDatabase == null)
+                {
+                    settingsDatabase = new SettingsDatabase();
+                }
+                return settingsDatabase;
+            }
+        }
+
+        public int ResumeAtTodoId { get; set; }
         public int ResumeAtClassesId { get; set; }
         public int ResumeAtAssignmentId { get; set; }
 
