@@ -32,10 +32,13 @@ namespace Deakin_Helper {
         private global::Xamarin.Forms.ListView listView;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Label lblAllClass;
+        private global::Xamarin.Forms.Label lblImage;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Label lblImage;
+        private global::Xamarin.Forms.StackLayout assignmentStackView;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.ListView assignmentListView;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
@@ -45,8 +48,9 @@ namespace Deakin_Helper {
             lblCourseName = this.FindByName<global::Xamarin.Forms.Label>("lblCourseName");
             listViewStack = this.FindByName<global::Xamarin.Forms.StackLayout>("listViewStack");
             listView = this.FindByName<global::Xamarin.Forms.ListView>("listView");
-            lblAllClass = this.FindByName<global::Xamarin.Forms.Label>("lblAllClass");
             lblImage = this.FindByName<global::Xamarin.Forms.Label>("lblImage");
+            assignmentStackView = this.FindByName<global::Xamarin.Forms.StackLayout>("assignmentStackView");
+            assignmentListView = this.FindByName<global::Xamarin.Forms.ListView>("assignmentListView");
         }
     }
 }
