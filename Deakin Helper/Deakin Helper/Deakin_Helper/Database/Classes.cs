@@ -14,8 +14,8 @@ namespace Deakin_Helper
         public string UnitCode { get; set; }
         public string UnitName { get; set; }
         public string RoomNumber { get; set; }
-        public string Day { get; set; }
         public string Time { get; set; }
         public string ClassType { get; set; }
+        public string ClassDate { get; set; }
     }
 }

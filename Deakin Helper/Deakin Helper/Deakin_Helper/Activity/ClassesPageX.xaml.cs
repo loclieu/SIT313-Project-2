@@ -13,8 +13,8 @@ namespace Deakin_Helper
         public ClassesPageX()
         {
             InitializeComponent();
+            dateEntry.SetValue(DatePicker.DateProperty, DateTime.Now);
             NavigationPage.SetHasNavigationBar(this, true);
-
         }
         void saveClicked(object sender, EventArgs e)
         {
