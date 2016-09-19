@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace Deakin_Helper
@@ -17,21 +13,21 @@ namespace Deakin_Helper
         }
         void saveClicked(object sender, EventArgs e)
         {
-            var todoItem = (Settings)BindingContext;
-            App.Database_Settings.SaveItem(todoItem);
+            var settingsItem = (Settings)BindingContext;
+            App.SettingsDB.SaveItem(settingsItem);
             this.Navigation.PopAsync();
         }
 
         void deleteClicked(object sender, EventArgs e)
         {
-            var todoItem = (Settings)BindingContext;
-            App.Database_Settings.DeleteItem(todoItem.ID);
+            var settingsItem = (Settings)BindingContext;
+            App.SettingsDB.DeleteItem(settingsItem.ID);
             this.Navigation.PopAsync();
         }
 
         void cancelClicked(object sender, EventArgs e)
         {
-            var todoItem = (Settings)BindingContext;
+            var setttingsItem = (Settings)BindingContext;
             this.Navigation.PopAsync();
         }
     }

@@ -34,6 +34,14 @@ namespace Deakin_Helper
             }
         }
 
+        // Get entries
+        public IEnumerable<Settings> GetCount()
+        {
+            lock (locker)
+            {
+                return database.Query<Settings>("SELECT count(*) FROM [Settings]");
+            }
+        }
 
         // Gets Today Class
         //public IEnumerable<Settings> GetTodayClass(string day)
@@ -72,7 +80,7 @@ namespace Deakin_Helper
         {
             lock (locker)
             {
-                return database.Delete<Classes>(id);
+                return database.Delete<Settings>(id);
             }
         }
     }

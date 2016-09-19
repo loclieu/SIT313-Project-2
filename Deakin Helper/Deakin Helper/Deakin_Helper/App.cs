@@ -8,8 +8,7 @@ namespace Deakin_Helper
     {
         // Create Database
         static ClassesDatabase database;
-        static SettingsDatabase settingsDatabase;
-
+        static SettingsDatabase settingsdb;
         static AssignmentDatabase assignmentdb;
 
         public App()
@@ -46,19 +45,19 @@ namespace Deakin_Helper
         }
 
         // Create database if it doesn't exist
-        public static SettingsDatabase Database_Settings
+        public static SettingsDatabase SettingsDB
         {
             get
             {
-                if (settingsDatabase == null)
+                if (settingsdb == null)
                 {
-                    settingsDatabase = new SettingsDatabase();
+                    settingsdb = new SettingsDatabase();
                 }
-                return settingsDatabase;
+                return settingsdb;
             }
         }
 
-        public int ResumeAtTodoId { get; set; }
+        public int ResumeAtSettingsId { get; set; }
         public int ResumeAtClassesId { get; set; }
         public int ResumeAtAssignmentId { get; set; }
 
@@ -98,10 +97,13 @@ namespace Deakin_Helper
             // Handle when your app sleeps
             Debug.WriteLine("OnSleep saving ResumeAtClassesId = " + ResumeAtClassesId);
             Debug.WriteLine("OnSleep saving ResumeAtClassesId = " + ResumeAtAssignmentId);
+            Debug.WriteLine("OnSleep saving ResumeAtClassesId = " + ResumeAtSettingsId);
             // the app should keep updating this value, to
+            
             // keep the "state" in case of a sleep/resume
             Properties["ResumeAtClassesId"] = ResumeAtClassesId;
             Properties["ResumeAtAssignmentId"] = ResumeAtAssignmentId;
+            Properties["ResumeAtAssignmentId"] = ResumeAtSettingsId;
         }
 
         protected override void OnResume()

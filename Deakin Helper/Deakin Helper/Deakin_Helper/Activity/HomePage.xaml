@@ -6,12 +6,46 @@
              BackgroundColor="White">
   <StackLayout>
     <Label Text="User" FontSize="25" TextColor="White" BackgroundColor="Gray"/>
-    <StackLayout Spacing="0" Orientation="Horizontal">
-      <Label x:Name="lblName" Text="User's Name" TextColor="Black"/>
-      <Label Text="" HorizontalOptions="CenterAndExpand"/>
-      <Label x:Name="lblID" Text="ID:0000000" TextColor="Black"/>
+
+    <StackLayout x:Name="settingsStackView">
+      <ListView x:Name="settingsListView" ItemSelected="SettingsItemSelected">
+        <ListView.ItemTemplate>
+          <DataTemplate>
+            <ViewCell>
+              <ViewCell.View>
+                <StackLayout Orientation="Horizontal"
+                             Padding="20,0,20,0"
+                             HorizontalOptions="EndAndExpand">
+                  
+                  <StackLayout Orientation="Vertical"
+                               Spacing="0">
+                    <Label Text="{Binding FullName}"
+                           HorizontalTextAlignment="Start"
+                           TextColor="Black"/>
+                    <Label Text="{Binding Email}"
+                           HorizontalTextAlignment="Start"
+                           TextColor="Black"/>
+                  </StackLayout>
+
+                  <StackLayout Orientation="Vertical"
+                               HorizontalOptions="EndAndExpand"
+                               Spacing="0">
+                    <Label Text="{Binding StudentID}"
+                           HorizontalTextAlignment="End"
+                           TextColor="Black"/>
+                    <Label Text="{Binding Course}"
+                           HorizontalTextAlignment="End"
+                           TextColor="Black"/>
+                  </StackLayout>
+
+                </StackLayout>
+              </ViewCell.View>
+            </ViewCell>
+          </DataTemplate>
+        </ListView.ItemTemplate>
+      </ListView>
     </StackLayout>
-    <Label x:Name="lblCourseName" Text="User's Course name" TextColor="Black"/>
+
     <Label Text="Today's Classes" FontSize="25" TextColor="White" BackgroundColor="Gray"/>
 
 
@@ -21,7 +55,7 @@
           <DataTemplate>
             <ViewCell>
               <ViewCell.View>
-                <StackLayout Orientation="Vertical" Padding="20,0,0,0">
+                <StackLayout Orientation="Vertical" Padding="20,0,20,0">
                   <StackLayout Orientation="Horizontal"
                                HorizontalOptions="FillAndExpand"
                                Spacing="0">
@@ -68,7 +102,7 @@
           <DataTemplate>
             <ViewCell>
               <ViewCell.View>
-                <StackLayout Orientation="Vertical" Padding="20,0,0,0">
+                <StackLayout Orientation="Vertical" Padding="20,0,20,0">
                   <StackLayout Orientation="Horizontal"
                                HorizontalOptions="FillAndExpand"
                                Spacing="0">
