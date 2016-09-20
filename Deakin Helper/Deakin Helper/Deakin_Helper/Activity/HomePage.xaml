@@ -64,13 +64,13 @@
                            VerticalTextAlignment="Center"
                            HorizontalOptions="Fill"
                            TextColor="Black"/>
-                    <Label Text ="-"
+                    <Label Text =" - "
                            VerticalTextAlignment="Center"/>
                     <Label Text="{Binding ClassType}"
                            VerticalTextAlignment="Center"
                            HorizontalOptions="StartAndExpand"
                            TextColor="Black"/>
-                    <Label Text="{Binding Time}"
+                    <Label Text="{Binding ClassTime, StringFormat='{0:hh\\:mm}'}"
                            VerticalTextAlignment="Center"
                            HorizontalTextAlignment="Start"
                            HorizontalOptions="EndAndExpand"
@@ -79,6 +79,7 @@
                   <StackLayout >
                     <Label Text="{Binding UnitName}"
                            VerticalTextAlignment="Start"
+                           TextColor="Black"
                            HorizontalOptions="Fill"/>
                   </StackLayout>
                 </StackLayout>
@@ -87,11 +88,6 @@
           </DataTemplate>
         </ListView.ItemTemplate>
       </ListView>
-    </StackLayout>
-
-    <StackLayout Spacing="0" Orientation="Horizontal">
-      <Label Text="" HorizontalOptions="CenterAndExpand"/>
-      <Label x:Name="lblImage" Text=">" TextColor="Black"/>
     </StackLayout>
 
     <Label Text="Assignment Due" FontSize="25" TextColor="White" BackgroundColor="Gray"/>
@@ -117,7 +113,7 @@
                            VerticalTextAlignment="Center"
                            HorizontalOptions="StartAndExpand"
                            TextColor="Black"/>
-                    <Label Text="{Binding Time}"
+                    <Label Text="{Binding DueTime, StringFormat='{0:hh\\:mm}'}"
                            VerticalTextAlignment="Center"
                            HorizontalTextAlignment="Start"
                            HorizontalOptions="EndAndExpand"
@@ -126,6 +122,7 @@
                   <StackLayout >
                     <Label Text="{Binding Day}"
                            VerticalTextAlignment="Start"
+                           TextColor="Black"
                            HorizontalOptions="Fill"/>
                   </StackLayout>
                 </StackLayout>

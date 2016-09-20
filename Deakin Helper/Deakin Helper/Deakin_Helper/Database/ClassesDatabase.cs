@@ -36,11 +36,11 @@ namespace Deakin_Helper
 
 
         // Gets Today Class
-        public IEnumerable<Classes> GetTodayClass(string day)
+        public IEnumerable<Classes> GetTodayClass(DateTime day)
         {
             lock (locker)
             {
-                return database.Query<Classes>(string.Format("SELECT * FROM [Classes] WHERE [Day] = {0}", day));
+                return database.Query<Classes>("SELECT * FROM [Classes] WHERE [ClassDate] = ?", day);
             }
         }
 

@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 using Xamarin.Forms;
 
 namespace Deakin_Helper
@@ -13,6 +8,7 @@ namespace Deakin_Helper
         public AssignmentPageX()
         {
             InitializeComponent();
+            dateEntry.SetValue(DatePicker.MinimumDateProperty, DateTime.Now.AddDays(-1));
             NavigationPage.SetHasNavigationBar(this, true);
 
         }

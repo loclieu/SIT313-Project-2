@@ -18,7 +18,7 @@
               <Label Text="{Binding AssignmentName}"
                        VerticalTextAlignment="Center"
                        HorizontalOptions="StartAndExpand" />
-              <Label Text="{Binding Day}"
+              <Label Text="{Binding DueDate}"
                       VerticalTextAlignment="Center"
                      HorizontalTextAlignment="Start"
                       HorizontalOptions="EndAndExpand" />

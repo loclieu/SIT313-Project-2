@@ -19,25 +19,17 @@
     <Entry x:Name="classTypeEntry" Placeholder="Class Type" Text="{Binding ClassType}"/>
 
     <Label Text="Time" />
-    <Entry x:Name="timeEntry" Placeholder="Time" Text="{Binding Time}"/>
+    <TimePicker x:Name="timeEntry"
+                VerticalOptions="CenterAndExpand"
+                Time="{Binding ClassTime}"
+                Format="hh-mm">
+    </TimePicker>
     
     <Label Text="Date" />
-    <DatePicker x:Name="dateEntry" VerticalOptions="CenterAndExpand" Date="{Binding ClassDate}">
-      <DatePicker.Format>dd--MM--yyyy</DatePicker.Format>
-      <DatePicker.MinimumDate>
-        <sys:DateTime x:FactoryMethod="Parse">
-          <x:Arguments>
-            <x:String>Jan 1 2000</x:String>
-          </x:Arguments>
-        </sys:DateTime>
-      </DatePicker.MinimumDate>
-      <DatePicker.MaximumDate>
-        <sys:DateTime x:FactoryMethod="Parse">
-          <x:Arguments>
-            <x:String>Dec 31 2050</x:String>
-          </x:Arguments>
-        </sys:DateTime>
-      </DatePicker.MaximumDate>
+    <DatePicker x:Name="dateEntry" 
+                VerticalOptions="CenterAndExpand" 
+                Date="{Binding ClassDate}"
+                Format="dd-MM-yyyy">
     </DatePicker>
     
     <Button Text="Save" Clicked="saveClicked"/>

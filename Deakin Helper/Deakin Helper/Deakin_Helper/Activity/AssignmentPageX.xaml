@@ -14,11 +14,19 @@
     <Label Text="Assignment Name" />
     <Entry x:Name="assignmentNameEntry" Placeholder="Assignment Name" Text="{Binding AssignmentName}"/>
 
-    <Label Text="Date" />
-    <Entry x:Name="dateEntry" Placeholder="Due Date" Text="{Binding Day}"/>
+    <Label Text="Due Time" />
+    <TimePicker x:Name="timeEntry"
+            VerticalOptions="CenterAndExpand"
+            Time="{Binding DueTime}"
+            Format="hh-mm">
+    </TimePicker>
 
-    <Label Text="Time" />
-    <Entry x:Name="timeEntry" Placeholder="Time" Text="{Binding Time}"/>
+    <Label Text="Due Date" />
+    <DatePicker x:Name="dateEntry"
+            VerticalOptions="CenterAndExpand"
+            Date="{Binding DueDate}"
+            Format="dd-MM-yyyy">
+    </DatePicker>
 
     <Button Text="Save" Clicked="saveClicked"/>
 
