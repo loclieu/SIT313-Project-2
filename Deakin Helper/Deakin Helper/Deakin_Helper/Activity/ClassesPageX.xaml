@@ -18,6 +18,8 @@
     <Label Text="Class Type" />
     <Entry x:Name="classTypeEntry" Placeholder="Class Type" Text="{Binding ClassType}"/>
 
+   
+    
     <Label Text="Time" />
     <TimePicker x:Name="timeEntry"
                 VerticalOptions="CenterAndExpand"
@@ -31,6 +33,9 @@
                 Date="{Binding ClassDate}"
                 Format="dd-MM-yyyy">
     </DatePicker>
+
+
+
     
     <Button Text="Save" Clicked="saveClicked"/>
 

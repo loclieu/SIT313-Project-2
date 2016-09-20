@@ -16,6 +16,13 @@ namespace Deakin_Helper
         public string RoomNumber { get; set; }
         public TimeSpan ClassTime { get; set; }
         public string ClassType { get; set; }
+      
         public DateTime ClassDate { get; set; }
+
+    
+        public string Day { get; set; }
+
+
+      
     }
 }

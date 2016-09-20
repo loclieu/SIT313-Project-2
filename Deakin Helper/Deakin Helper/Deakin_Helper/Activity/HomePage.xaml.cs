@@ -21,6 +21,7 @@ namespace Deakin_Helper
             listView.SeparatorColor = Color.FromHex("C8C7CC");
 
             DateTime today = DateTime.Today;
+          
             DateTime dueSoon = DateTime.Today.AddDays(7); 
 
             string day = today.DayOfWeek.ToString();
@@ -54,17 +55,23 @@ namespace Deakin_Helper
 
         void listItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-
+            if (e == null) return;
+            // do something with e.SelectedItem
+            ((ListView)sender).SelectedItem = null; // de-select the row
         }
 
         void AssignmentItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-
+            if (e == null) return;
+            // do something with e.SelectedItem
+            ((ListView)sender).SelectedItem = null; // de-select the row
         }
 
         void SettingsItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-
+            if (e == null) return;
+            // do something with e.SelectedItem
+            ((ListView)sender).SelectedItem = null; // de-select the row
         }
     }
 }
