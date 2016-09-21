@@ -19,12 +19,13 @@ namespace Deakin_Helper
             // Separate entries
             listView.SeparatorVisibility = SeparatorVisibility.Default;
             listView.SeparatorColor = Color.FromHex("C8C7CC");
+            assignmentListView.SeparatorVisibility = SeparatorVisibility.Default;
+            assignmentListView.SeparatorColor = Color.FromHex("C8C7CC");
 
-            DateTime today = DateTime.Today;
-          
+            DateTime today = DateTime.Today;          
             DateTime dueSoon = DateTime.Today.AddDays(7); 
 
-            string day = today.DayOfWeek.ToString();
+            //string day = today.DayOfWeek.ToString();
 
 
             // reset the 'resume' id, since we just want to re-start here
@@ -48,9 +49,9 @@ namespace Deakin_Helper
             int SettingsCount = allSettingsItem.Count();
 
             // Change listview height corresponding to the number of items
-            listViewStack.HeightRequest = classesCount * 50;
-            assignmentStackView.HeightRequest = AssignmentCount * 50;
-            settingsStackView.HeightRequest = SettingsCount * 50;
+            listViewStack.HeightRequest = classesCount * 51;
+            assignmentStackView.HeightRequest = AssignmentCount * 51;
+            settingsStackView.HeightRequest = SettingsCount * 51;
         }
 
         void listItemSelected(object sender, SelectedItemChangedEventArgs e)

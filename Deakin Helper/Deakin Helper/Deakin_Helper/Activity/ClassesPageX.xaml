@@ -4,44 +4,46 @@
              xmlns:sys="clr-namespace:System;assembly=mscorlib"
              x:Class="Deakin_Helper.ClassesPageX"
              Title="{Binding Name}">
-  <StackLayout VerticalOptions="StartAndExpand" Padding="20">
+  <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
+    <StackLayout VerticalOptions="StartAndExpand" Padding="20">
 
-    <Label Text="Unit Code" />
-    <Entry x:Name="unitCodeEntry" Placeholder="Unit Code" Text="{Binding UnitCode}"/>
-    
-    <Label Text="Unit Name" />
-    <Entry x:Name="unitNameEntry" Placeholder="Unit Name" Text="{Binding UnitName}"/>
-    
-    <Label Text="Room Number" />
-    <Entry x:Name="roomNumberEntry" Placeholder="Room Number" Text="{Binding RoomNumber}"/>
-    
-    <Label Text="Class Type" />
-    <Entry x:Name="classTypeEntry" Placeholder="Class Type" Text="{Binding ClassType}"/>
+      <Label Text="Unit Code" />
+      <Entry x:Name="unitCodeEntry" Placeholder="Unit Code" Text="{Binding UnitCode}"/>
 
-   
-    
-    <Label Text="Time" />
-    <TimePicker x:Name="timeEntry"
-                VerticalOptions="CenterAndExpand"
-                Time="{Binding ClassTime}"
-                Format="hh-mm">
-    </TimePicker>
-    
-    <Label Text="Date" />
-    <DatePicker x:Name="dateEntry" 
-                VerticalOptions="CenterAndExpand" 
-                Date="{Binding ClassDate}"
-                Format="dd-MM-yyyy">
-    </DatePicker>
+      <Label Text="Unit Name" />
+      <Entry x:Name="unitNameEntry" Placeholder="Unit Name" Text="{Binding UnitName}"/>
+
+      <Label Text="Room Number" />
+      <Entry x:Name="roomNumberEntry" Placeholder="Room Number" Text="{Binding RoomNumber}"/>
+
+      <Label Text="Class Type" />
+      <Entry x:Name="classTypeEntry" Placeholder="Class Type" Text="{Binding ClassType}"/>
 
 
 
-    
-    <Button Text="Save" Clicked="saveClicked"/>
+      <Label Text="Time" />
+      <TimePicker x:Name="timeEntry"
+                  VerticalOptions="CenterAndExpand"
+                  Time="{Binding ClassTime}"
+                  Format="hh-mm">
+      </TimePicker>
 
-    <Button Text="Delete" Clicked="deleteClicked"/>
+      <Label Text="Date" />
+      <DatePicker x:Name="dateEntry"
+                  VerticalOptions="CenterAndExpand"
+                  Date="{Binding ClassDate}"
+                  Format="dd-MM-yyyy">
+      </DatePicker>
 
-    <Button Text="Cancel" Clicked="cancelClicked"/>
 
-  </StackLayout>
+
+
+      <Button Text="Save" Clicked="saveClicked"/>
+
+      <Button Text="Delete" Clicked="deleteClicked"/>
+
+      <Button Text="Cancel" Clicked="cancelClicked"/>
+
+    </StackLayout>
+  </ScrollView>
 </ContentPage>

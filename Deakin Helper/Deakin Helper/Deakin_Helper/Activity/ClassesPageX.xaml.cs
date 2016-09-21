@@ -19,7 +19,7 @@ namespace Deakin_Helper
 
             dateEntry.SetValue(DatePicker.MinimumDateProperty, DateTime.Now.AddDays(-1));
             //dateEntry.SetValue(DatePicker.DateProperty, DateTime.Now);
-            
+
             NavigationPage.SetHasNavigationBar(this, true);         
             
         }
@@ -27,6 +27,7 @@ namespace Deakin_Helper
         void saveClicked(object sender, EventArgs e)
         {
             var todoItem = (Classes)BindingContext;
+
             if (unitCodeEntry.Text == null)
             {
                 DisplayAlert("Error", "Unit Code is Empty", "OK");
@@ -44,14 +45,10 @@ namespace Deakin_Helper
                 DisplayAlert("Error", "Class Type is Empty", "OK");
             }
             else
-            {          
-            App.Database.SaveItem(todoItem);
-            this.Navigation.PopAsync(); 
+            {
+                App.Database.SaveItem(todoItem);
+                this.Navigation.PopAsync(); 
             }
-
-         
-             
-
         }
 
         void deleteClicked(object sender, EventArgs e)

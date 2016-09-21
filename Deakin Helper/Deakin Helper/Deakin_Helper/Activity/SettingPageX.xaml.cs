@@ -14,8 +14,24 @@ namespace Deakin_Helper
         void saveClicked(object sender, EventArgs e)
         {
             var settingsItem = (Settings)BindingContext;
-            App.SettingsDB.SaveItem(settingsItem);
-            this.Navigation.PopAsync();
+
+            if (fullNameEntry.Text == null)
+            {
+                DisplayAlert("Error", "Name is Empty", "OK");
+            }
+            else if (emailEntry.Text == null)
+            {
+                DisplayAlert("Error", "Email is Empty", "OK");
+            }
+            else if (studentIDEntry.Text == null)
+            {
+                DisplayAlert("Error", "StudentID is Empty", "OK");
+            }
+            else
+            {
+                App.SettingsDB.SaveItem(settingsItem);
+                this.Navigation.PopAsync();
+            }
         }
 
         void deleteClicked(object sender, EventArgs e)
