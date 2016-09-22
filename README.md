@@ -1,7 +1,9 @@
-Deakin Helper version 1.0.0 9/22/2016
+#Deakin Helper version 1.0.0 9/22/2016
 
 SIT313 Mobile Application Project 2 Created By: Loc, Andrew and Callum
+
 APPLICATION USAGE:
+---------------------
 - The mobile application is created for unit SIT313 Mobile Application project 2 
 - Using Xamerin Forms to create a cross-platform application for Android and IOS   
 - The purpose of this application allows Deakin Student to navigate through their
@@ -12,6 +14,7 @@ APPLICATION USAGE:
 
 
 FEATURES:
+----------
 - SQLite + PCL for storing data
 - ListView to display information
 - Navigation through the Master Page
@@ -20,11 +23,13 @@ FEATURES:
 - Displaying "today class" and Assignments due date (7 day prior to the due date)
 
 SOFTWARE REQUIREMENT:
+---------------------
 - IOS and Android Phone
 - Mininum Android 4.1 
 
 
 INSTALLATION:
+--------------
 - Application is created using Visual Studio 2015 Xamerin Forms
 - NuGet Packages Installed:
     - Sqlite-net.1.0.8
