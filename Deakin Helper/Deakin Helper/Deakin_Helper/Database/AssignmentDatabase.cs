@@ -34,8 +34,15 @@ namespace Deakin_Helper
             }
         }
 
+        public IEnumerable<Assignment> GetTodayAssignment(DateTime today, DateTime dueSoon)
+        {
+            lock (locker)
+            {
+                return database.Query<Assignment>("SELECT * FROM [Assignment] WHERE [DueDate] BETWEEN ? AND ?", today, dueSoon);
+            }
+        }
 
-      
+
 
         public Assignment GetItem(int id)
         {

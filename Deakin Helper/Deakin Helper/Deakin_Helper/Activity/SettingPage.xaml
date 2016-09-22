@@ -3,33 +3,35 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Deakin_Helper.SettingPage"
              Title="Settings">
-  <ListView x:Name="listView" ItemSelected="listItemSelected">
-    <ListView.ItemTemplate>
-      <DataTemplate>
-        <ViewCell>
-          <ViewCell.View>
-            <StackLayout Padding="20,0,20,0"
-                         Orientation="Horizontal"
-                         HorizontalOptions="FillAndExpand">
+  <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
+    <ListView x:Name="listView" ItemSelected="listItemSelected">
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+            <ViewCell.View>
+              <StackLayout Padding="20,0,20,0"
+                           Orientation="Horizontal"
+                           HorizontalOptions="FillAndExpand">
 
-              <Label Text="{Binding FullName}"
-                     VerticalTextAlignment="Center"
-                     HorizontalOptions="Fill" />
-              <Label Text="{Binding Email}"
+                <Label Text="{Binding FullName}"
                        VerticalTextAlignment="Center"
-                       HorizontalOptions="StartAndExpand" />
-              <Label Text="{Binding StudentID}"
-                      VerticalTextAlignment="Center"
-                     HorizontalTextAlignment="Start"
-                      HorizontalOptions="EndAndExpand" />
-              <Label Text="{Binding Course}"
-                      VerticalTextAlignment="Center"
-                     HorizontalTextAlignment="Start"
-                      HorizontalOptions="EndAndExpand" />
-            </StackLayout>
-          </ViewCell.View>
-        </ViewCell>
-      </DataTemplate>
-    </ListView.ItemTemplate>
-  </ListView>
+                       HorizontalOptions="Fill" />
+                <Label Text="{Binding Email}"
+                         VerticalTextAlignment="Center"
+                         HorizontalOptions="StartAndExpand" />
+                <Label Text="{Binding StudentID}"
+                        VerticalTextAlignment="Center"
+                       HorizontalTextAlignment="Start"
+                        HorizontalOptions="EndAndExpand" />
+                <Label Text="{Binding Course}"
+                        VerticalTextAlignment="Center"
+                       HorizontalTextAlignment="Start"
+                        HorizontalOptions="EndAndExpand" />
+              </StackLayout>
+            </ViewCell.View>
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+  </ScrollView>
 </ContentPage>

@@ -3,30 +3,32 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Deakin_Helper.AssignmentPage"
              Title="Assigment">
-  <ListView x:Name="listView" ItemSelected="listItemSelected">
-    <ListView.ItemTemplate>
-      <DataTemplate>
-        <ViewCell>
-          <ViewCell.View>
-            <StackLayout Padding="20,0,20,0"
-                         Orientation="Horizontal"
-                         HorizontalOptions="FillAndExpand">
+  <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
+    <ListView x:Name="listView" ItemSelected="listItemSelected">
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+            <ViewCell.View>
+              <StackLayout Padding="20,0,20,0"
+                           Orientation="Horizontal"
+                           HorizontalOptions="FillAndExpand">
 
-              <Label Text="{Binding UnitCode}"
-                     VerticalTextAlignment="Center"
-                     HorizontalOptions="Fill" />
-              <Label Text="{Binding AssignmentName}"
+                <Label Text="{Binding UnitCode}"
                        VerticalTextAlignment="Center"
-                       HorizontalOptions="StartAndExpand" />
-              <Label Text="{Binding Day}"
-                      VerticalTextAlignment="Center"
-                     HorizontalTextAlignment="Start"
-                      HorizontalOptions="EndAndExpand" />
+                       HorizontalOptions="Fill" />
+                <Label Text="{Binding AssignmentName}"
+                         VerticalTextAlignment="Center"
+                         HorizontalOptions="StartAndExpand" />
+                <Label Text="{Binding DueDate, StringFormat='{0:dd-MM-yyyy}'}"
+                        VerticalTextAlignment="Center"
+                       HorizontalTextAlignment="Start"
+                        HorizontalOptions="EndAndExpand" />
 
-            </StackLayout>
-          </ViewCell.View>
-        </ViewCell>
-      </DataTemplate>
-    </ListView.ItemTemplate>
-  </ListView>
+              </StackLayout>
+            </ViewCell.View>
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+  </ScrollView>
 </ContentPage>

@@ -66,6 +66,7 @@
     <Compile Include="Activity\HomePage.xaml.cs">
       <DependentUpon>HomePage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="BindablePicker.cs" />
     <Compile Include="Database\SettingsDatabase.cs" />
     <Compile Include="Database\Assignment.cs" />
     <Compile Include="Database\AssignmentDatabase.cs" />

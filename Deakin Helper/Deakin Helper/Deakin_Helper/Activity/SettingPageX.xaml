@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Deakin_Helper.SettingPageX"
              Title="{Binding Name}">
+  <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
     <StackLayout VerticalOptions="StartAndExpand" Padding="20">
 
       <Label Text="Full Name" />
@@ -24,4 +25,5 @@
       <Button Text="Cancel" Clicked="cancelClicked"/>
 
     </StackLayout>
+  </ScrollView>
 </ContentPage>

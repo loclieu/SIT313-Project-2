@@ -16,8 +16,8 @@ namespace Deakin_Helper
             public string UnitCode { get; set; }
             public string UnitName { get; set; }
             public string AssignmentName { get; set; }
-            public string Day { get; set; }
-            public string Time { get; set; }
+            public DateTime DueDate { get; set; }
+            public TimeSpan DueTime { get; set; }
             
        
     }

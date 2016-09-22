@@ -3,30 +3,32 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Deakin_Helper.ClassesPage"
              Title="Classes">
-  <ListView x:Name="listView" ItemSelected="listItemSelected">
-    <ListView.ItemTemplate>
-      <DataTemplate>
-        <ViewCell>
-          <ViewCell.View>
-            <StackLayout Padding="20,0,20,0"
-                         Orientation="Horizontal"
-                         HorizontalOptions="FillAndExpand">
+  <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
+    <ListView x:Name="listView" ItemSelected="listItemSelected">
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <ViewCell>
+            <ViewCell.View>
+              <StackLayout Padding="20,0,20,0"
+                           Orientation="Horizontal"
+                           HorizontalOptions="FillAndExpand">
 
-              <Label Text="{Binding UnitCode}"
-                     VerticalTextAlignment="Center"
-                     HorizontalOptions="Fill" />
-              <Label Text="{Binding UnitName}"
+                <Label Text="{Binding UnitCode}"
                        VerticalTextAlignment="Center"
-                       HorizontalOptions="StartAndExpand" />
-              <Label Text="{Binding Time}"
-                      VerticalTextAlignment="Center"
-                     HorizontalTextAlignment="Start"
-                      HorizontalOptions="EndAndExpand" />
+                       HorizontalOptions="Fill" />
+                <Label Text="{Binding UnitName}"
+                         VerticalTextAlignment="Center"
+                         HorizontalOptions="StartAndExpand" />
+                <Label Text="{Binding ClassDate, StringFormat='{0:dd-MM-yyyy}'}"
+                        VerticalTextAlignment="Center"
+                       HorizontalTextAlignment="Start"
+                        HorizontalOptions="EndAndExpand" />
 
-            </StackLayout>
-          </ViewCell.View>
-        </ViewCell>
-      </DataTemplate>
-    </ListView.ItemTemplate>
-  </ListView>
+              </StackLayout>
+            </ViewCell.View>
+          </ViewCell>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+  </ScrollView>
 </ContentPage>

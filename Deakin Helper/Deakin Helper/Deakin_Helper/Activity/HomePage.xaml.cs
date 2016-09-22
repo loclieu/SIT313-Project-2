@@ -16,8 +16,17 @@ namespace Deakin_Helper
         {
             base.OnAppearing();
 
-            DateTime today = DateTime.Today;
-            string day = today.DayOfWeek.ToString();
+            // Separate entries
+            listView.SeparatorVisibility = SeparatorVisibility.Default;
+            listView.SeparatorColor = Color.FromHex("C8C7CC");
+            assignmentListView.SeparatorVisibility = SeparatorVisibility.Default;
+            assignmentListView.SeparatorColor = Color.FromHex("C8C7CC");
+
+            DateTime today = DateTime.Today;          
+            DateTime dueSoon = DateTime.Today.AddDays(7); 
+
+            //string day = today.DayOfWeek.ToString();
+
 
             // reset the 'resume' id, since we just want to re-start here
             ((App)App.Current).ResumeAtClassesId = -1;
@@ -25,39 +34,45 @@ namespace Deakin_Helper
             ((App)App.Current).ResumeAtSettingsId = -1;
 
             // Add item to listView
-            listView.ItemsSource = App.Database.GetItems();
-            assignmentListView.ItemsSource = App.AssignmentDB.GetItems();
+            listView.ItemsSource = App.Database.GetTodayClass(today);
+            assignmentListView.ItemsSource = App.AssignmentDB.GetTodayAssignment(today, dueSoon);
             settingsListView.ItemsSource = App.SettingsDB.GetItems();
 
-            // Get Number of items in database
-            var allClassesItem = App.Database.GetItems();
-            int classesCount = allClassesItem.Count();
+            // Get Number of items in database to show
+            var todaysClassesItem = App.Database.GetTodayClass(today);
+            int classesCount = todaysClassesItem.Count();
 
-            var allAssignmentItem = App.AssignmentDB.GetItems();
-            int AssignmentCount = allAssignmentItem.Count();
+            var dueAssignmentItem = App.AssignmentDB.GetTodayAssignment(today, dueSoon);
+            int AssignmentCount = dueAssignmentItem.Count();
 
             var allSettingsItem = App.SettingsDB.GetItems();
             int SettingsCount = allSettingsItem.Count();
 
             // Change listview height corresponding to the number of items
-            listViewStack.HeightRequest = classesCount * 50;
-            assignmentStackView.HeightRequest = AssignmentCount * 50;
-            settingsStackView.HeightRequest = SettingsCount * 50;
+            listViewStack.HeightRequest = classesCount * 51;
+            assignmentStackView.HeightRequest = AssignmentCount * 51;
+            settingsStackView.HeightRequest = SettingsCount * 51;
         }
 
         void listItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-
+            if (e == null) return;
+            // do something with e.SelectedItem
+            ((ListView)sender).SelectedItem = null; // de-select the row
         }
 
         void AssignmentItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-
+            if (e == null) return;
+            // do something with e.SelectedItem
+            ((ListView)sender).SelectedItem = null; // de-select the row
         }
 
         void SettingsItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-
+            if (e == null) return;
+            // do something with e.SelectedItem
+            ((ListView)sender).SelectedItem = null; // de-select the row
         }
     }
 }
