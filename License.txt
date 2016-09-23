@@ -1,0 +1,5 @@
+License file for SIT313 Mobile Application Project 2
+
+Resources Used:
+Master-Detail Page: https://developer.xamarin.com/guides/xamarin-forms/user-interface/navigation/master-detail-page/
+Local Database : https://developer.xamarin.com/guides/xamarin-forms/working-with/databases/
